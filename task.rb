@@ -1,10 +1,9 @@
+require_relative 'project'
+
+
 class Task
   attr_accessor :name_of_task, :description_of_task, :estimation_of_task
-=begin
-  def initialize
-    @tasks = Array.new
-  end
-=end
+
   def initialize
     @name_of_task = name_of_task
     @description_of_task =description_of_task
@@ -26,3 +25,4 @@ class Task
   end
 
 end
+

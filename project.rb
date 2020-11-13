@@ -2,6 +2,7 @@ require_relative 'task'
 
 class Project
   attr_accessor :project_name
+
   @@projects = Hash.new
   def initialize(project_name)
     @project_name = project_name
@@ -50,3 +51,4 @@ class Project
     p @@projects
   end
 end
+
